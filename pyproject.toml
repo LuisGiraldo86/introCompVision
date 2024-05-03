@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "introcompvision"
+version = "0.1.0"
+description = ""
+authors = ["luisggon <luisggon@flyde.io>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+pandas = "^2.2.2"
+tensorflow = "^2.16.1"
+pydot = "^2.0.0"
+matplotlib = "^3.8.4"
+mlflow = "^2.12.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
